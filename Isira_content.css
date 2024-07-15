@@ -3,8 +3,9 @@
     font-weight: 600;
 }
 body{
+
     margin: 0;
-    padding-top: 25px;
+    /* padding-top: 25px; */
 }
 h1,h2 {
     text-shadow: 2px 2px 4px rgb(107, 121, 251); /* Add a shadow with an offset of 2px horizontally and 2px vertically, blur radius of 4px, and color with 50% opacity */
@@ -16,6 +17,32 @@ h1,h2 {
     font-size: xxx-large;
     line-height: 1px;
 }
+.navBar{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding-right: 10px;
+    width: 100%;
+    position:fixed;
+    border: 2px solid rgba(255, 255, 255, 0.464);
+    border-radius: 25px;
+    backdrop-filter: blur(5px);
+    justify-content:flex-end;
+}
+.navBar a{
+    text-decoration: none;
+    height: 10%;
+    width: 12%;
+    color: rgb(2, 245, 176);
+    background-color: #12004d;
+    padding: 15px;
+    border-radius: 25px;
+    transition: 1s ;
+}
+.navBar a:hover {
+    background-color: rgba(200, 0, 255, 0.399);
+}
+
 #h2tag{
     text-shadow:2px 1px 10px #ffffff;
     margin-left: 50%;
